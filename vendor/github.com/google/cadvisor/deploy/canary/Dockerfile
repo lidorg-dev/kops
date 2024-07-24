@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.23rc2
 MAINTAINER vmarmol@google.com
 
 RUN apt-get install -y git dmsetup
